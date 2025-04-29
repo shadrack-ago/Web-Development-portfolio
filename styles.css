@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* what i can do for you section */
+.i_can_do{
+    background: grey;
+    border: 0px solid black;
+}
+.i_can_do .card{
+    background-color: white;
+}
+/* skills */
+.skills__container{
+    margin: 10px;
+    display: flex;
+    gap:10px;
+    width:98%;
+    border:2px solid blue;
+
+}
+/* progress */
+.progress__container,.image__container{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+}
+.skillsImage{
+    height: 250px;
+    width: 200px;
+    
+}
+.container{
+    display:flex;
+    gap:20px;
+    background-image: url();
+}
+
