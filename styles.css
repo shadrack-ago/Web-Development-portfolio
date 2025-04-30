@@ -389,5 +389,12 @@ height: 50px;
     width:80%;
   }
 
+  .footer{
+    background-color:  rgb(2, 34, 2);
+    height:30%;
+    text-align: center;
+    justify-content: center;
+  }
+
   
 
