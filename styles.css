@@ -2,9 +2,270 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ffffff;
     font-family: a"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* what i can do for you section felex */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: rgba(19, 34, 49, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.8;
+}
+
+.hire-btn {
+  background-color: green;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.icon{
+  display:flex;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)),  url('https://images.pexels.com/photos/5083405/pexels-photo-5083405.jpeg?auto=compress&cs=tinysrgb&w=600');
+  opacity:1;
+  background-size: cover;
+  background-position: center;
+  min-height: 88vh;
+}
+
+
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: #9dc5bb;
+  opacity: 0.8;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.side-nav {
+display: flex;
+flex-direction: column;  
+background-color: #090611;
+width: 60px;
+padding: 10px 0;
+height: 35vh;
+line-height: 3px;
+position: fixed;
+right:0;
+}
+
+.icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px 0;
+color: gray;
+cursor: pointer;
+text-align: center;
+}
+
+.icon i {
+font-size: 24px;
+color: gray;
+}
+
+.icon span {
+font-size: 12px;
+margin-top: 5px;
+color: gray;
+}
+
+
+.success-work {
+text-align: center;
+padding: 40px 20px;
+background-color: #fff;
+}
+
+.success-work h2 {
+font-size: 24px;
+margin-bottom: 30px;
+color:gray;
+}
+
+.image-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+max-width: 900px;
+margin: 0 auto 40px;
+}
+
+.image-grid img {
+width: 100%;
+border-radius: 8px;
+object-fit: cover;
+}
+
+.brand-banner {
+background-color: #2e7d66; /* match your image's green */
+padding: 30px 20px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.brand-banner img {
+height: 50px;
+}
+
+
+@media (max-width: 992px) {
+  .hero {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 3rem;
+      gap: 2rem;
+  }
+
+  .hero-content {
+      max-width: 100%;
+  }
+
+  .btn-container {
+      justify-content: center;
+  }
+
+  .hero h2 {
+      font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+  }
+
+  .hero h2 {
+      font-size: 2.5rem;
+  }
+}
+
+
+
 .i_can_do {
     background-color: #f0f0f0;
   }
@@ -117,6 +378,7 @@ body{
     height: 50%;
     border-radius: 8px;
     object-fit: cover;
+    top: 0%;
   }
   
   .stat{
