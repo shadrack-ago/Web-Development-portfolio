@@ -427,7 +427,49 @@ height: 50px;
     font-weight: bold;
   }
 
-
+  @media (max-width: 768px) {
+    .success-work h2 {
+      font-size: 1.75rem;
+    }
+  
+    .badge span {
+      font-size: 0.95rem;
+    }
+  
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .badge-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .success-work {
+      padding: 1rem;
+    }
+  
+    .badge {
+      padding: 0.8rem 1rem;
+    }
+  
+    .badge i {
+      font-size: 1.5rem;
+    }
+  
+    .badge span {
+      font-size: 0.9rem;
+    }
+  
+    .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .badge-container {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+    }}
 
   /* myraa styling */
   .bio-section {
