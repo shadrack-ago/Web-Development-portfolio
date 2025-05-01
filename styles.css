@@ -396,6 +396,7 @@ height: 50px;
     align-items: center;
     gap: 60px;
     background-color: rgb(12, 61, 20);
+      height:8rem;
   }
 
   .badge {
