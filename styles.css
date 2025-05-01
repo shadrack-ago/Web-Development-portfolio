@@ -396,7 +396,7 @@ height: 50px;
   align-items: center;
   gap: 60px;
   background-color: rgb(12, 61, 20);
-  height: 8rem;
+  height: 10rem;
   padding: 20px; /* Add padding to prevent edge crowding */
 }
 
@@ -413,6 +413,9 @@ height: 50px;
   justify-content: center;
   padding: 8px;
   transition: transform 0.3s ease;
+ white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden; 
+    font-size:12px;
 }
 
 /* Ensure icons are properly sized and centered */
