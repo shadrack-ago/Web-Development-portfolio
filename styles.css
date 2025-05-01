@@ -407,11 +407,11 @@ height: 50px;
   color: white;
   text-align: center;
   border: 2px solid white;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  border-radius: 90%;
+  width: 100px;
+  height: 100px;
   justify-content: center;
-  padding: 10px;
+  padding: 8px;
   transition: transform 0.3s ease;
 }
 
