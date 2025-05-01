@@ -390,55 +390,47 @@ height: 50px;
     width:80%;
   }
 
+
 .badge-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  background-color: rgb(12, 61, 20);
-  height: 10rem;
-  padding: 20px; /* Add padding to prevent edge crowding */
-}
+  display:flex;
+  box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      background-color: rgb(12, 61, 20);
+      height: 8rem;
+      margin-top: 50px;
+    }
 
-.badge {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 90%;
-  width: 100px;
-  height: 100px;
-  justify-content: center;
-  padding: 8px;
-  transition: transform 0.3s ease;
- white-space: nowrap; /* Prevents text wrapping */
-  overflow: hidden; 
-    font-size:12px;
-}
+    .badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      text-align: center;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      justify-content: center;
+      padding: 10px;
+      transition: transform 0.3s ease;
+    }
 
-/* Ensure icons are properly sized and centered */
-.badge img {
-  width: 40px; /* Adjust icon size as needed */
-  height: 40px;
-  margin-bottom: 8px; /* Space between icon and text */
-}
+    .badge:hover {
+      transform: scale(1.1);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
 
-.badge:hover {
-  transform: scale(1.05);
-}
+    .badge i {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
 
-  .badge i {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .badge span {
-    font-size: 13px;
-    font-weight: bold;
-  }
-
+    .badge span {
+      font-size: 13px;
+      font-weight: bold;
+    }
   @media (max-width: 768px) {
     .success-work h2 {
       font-size: 1.75rem;
