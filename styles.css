@@ -407,11 +407,11 @@ height: 50px;
   color: white;
   border: 2px solid white;
   border-radius: 50%; /* Perfect circle */
-  width: auto; /* Slightly smaller for better text fit */
-  height: auto;
+  width: 150px; /* Slightly smaller for better text fit */
+  height: 150px;
   padding: 10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.2; /* Improves text spacing */
   white-space: normal; /* Allows text wrapping */
   word-break: break-word; /* Prevents overflow */
