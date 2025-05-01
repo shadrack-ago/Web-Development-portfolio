@@ -410,7 +410,7 @@ height: 50px;
       text-align: center;
       border: 2px solid white;
       border-radius: 50%;
-      width: 120px;
+     flex:1;
       height: 120px;
       justify-content: center;
       padding: 10px;
