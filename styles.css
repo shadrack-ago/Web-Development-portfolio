@@ -275,6 +275,7 @@ height: 50px;
     color: #333;
     font-size: 24px;
     text-align: center;
+    justify-content: center;
     font-weight: bold;
     text-transform: capitalize;
     margin: 0;
@@ -287,12 +288,14 @@ height: 50px;
   .card-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0 auto;
   }
   .card {
     background-color: white;
-    margin: 0.5rem;
+    flex: 1;
+    max-width: 320px;
     border: 2px solid black;
     border-radius: 8px;
     text-align: start;
