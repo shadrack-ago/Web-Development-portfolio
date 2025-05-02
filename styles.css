@@ -389,34 +389,32 @@ height: 50px;
     margin: auto;
     width:80%;
   }
-
 .badge-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px; /* Adjust spacing between badges */
-  background-color: rgb(12, 61, 20);
-  padding: 30px 20px; /* Add vertical padding */
-}
+  display:flex;
+  box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      background-color: rgb(12, 61, 20);
+      height: 8rem;
+      margin-top: 50px;
+    }
 
-.badge {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  border: 2px solid white;
-  border-radius: 50%; /* Perfect circle */
-  width: 100px; /* Slightly smaller for better text fit */
-  height: 100px;
-  padding: 8px;
-  text-align: center;
-  font-size: 10px;
-  line-height: 1.2; /* Improves text spacing */
-  white-space: normal; /* Allows text wrapping */
-  word-break: break-word; /* Prevents overflow */
-    overflow:hidden;
-}
+    .badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      text-align: center;
+      border: 2px solid white;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      justify-content: center;
+      padding: 10px;
+      transition: transform 0.3s ease;
+    }
+
 
 /* Icon styling */
 .badge img {
