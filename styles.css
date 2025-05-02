@@ -197,6 +197,7 @@ color: gray;
 text-align: center;
 padding: 40px 20px;
 background-color: #fff;
+justify-content: center;
 }
 
 .success-work h2 {
@@ -511,7 +512,7 @@ height: 50px;
 
 /* Footer */
 footer {
-  background-color: var(--dark);
+  background-color: rgb(19, 19, 19);
   color: white;
   padding: 40px 0;
   text-align: center;
