@@ -407,21 +407,22 @@ height: 50px;
   color: white;
   border: 2px solid white;
   border-radius: 50%; /* Perfect circle */
-  width: 50px; /* Slightly smaller for better text fit */
-  height: 50px;
-  padding: 10px;
+  width: 100px; /* Slightly smaller for better text fit */
+  height: 100px;
+  padding: 8px;
   text-align: center;
   font-size: 10px;
   line-height: 1.2; /* Improves text spacing */
   white-space: normal; /* Allows text wrapping */
   word-break: break-word; /* Prevents overflow */
+    overflow:hidden;
 }
 
 /* Icon styling */
 .badge img {
-  width: 40px; /* Fixed icon size */
-  height: 40px;
-  margin-bottom: 8px; /* Space between icon and text */
+  width: 80px; /* Fixed icon size */
+  height: 80px;
+  margin-bottom: 4px; /* Space between icon and text */
   object-fit: contain; /* Prevents stretching */
 }
 
