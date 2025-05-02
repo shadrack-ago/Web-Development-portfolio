@@ -265,56 +265,38 @@ height: 50px;
       font-size: 2.5rem;
   }
 }
+ /* what i can do for you section flex */
 
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
+.card {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 320px;
+  box-sizing: border-box;
+}
 
-.i_can_do {
-    background-color: #f0f0f0;
-  }
-  .i_can_do .h2 {
-    color: #333;
-    font-size: 24px;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin: 0;
-    padding-top: 18px;
-  }
-  /* more services */
-  .more_services{
-    text-align: center;
-  }
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
   .card-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
   }
+
   .card {
-    background-color: white;
-    flex: 1;
-    max-width: 320px;
-    border: 2px solid black;
-    border-radius: 8px;
-    text-align: start;
-    padding: 36px;
+    width: 90%;
   }
-  .card-image {
-    width: 100%;
-    height: auto;
-  }
-  .card-title {
-    font-size: 18px;
-    font-weight: 800;
-    margin: 0;
-  }
-  .more_services a {
-    text-align: center;
-    margin: 0 auto;
-    color: #333;
-  }
+}
+
 /* skills */
 .skills__container{
     margin-top: 10px;
